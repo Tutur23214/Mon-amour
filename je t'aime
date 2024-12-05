@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'aime Mia Rouleau</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+            color: #4a4a4a;
+        }
+        .heart {
+            font-size: 2.5em;
+            color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>J'aime Mia Rouleau</h1>
+        <p>La plus formidable et belle personne sur la Terre</p>
+        <p>que j'aime plus que tout au monde entier <span class="heart">❤️</span></p>
+    </div>
+</body>
+</html>
